@@ -1,0 +1,19 @@
+{
+  "name": "fundamentosnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesanpi/fundamentos-nodejs-lesanpi.git"
+  },
+  "author": "@lesanpi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lesanpi/fundamentos-nodejs-lesanpi/issues"
+  },
+  "homepage": "https://github.com/lesanpi/fundamentos-nodejs-lesanpi#readme"
+}
