@@ -12,6 +12,13 @@ function hablar(callbackHablar) {
   }, 1000);
 }
 
+function adios(nombre, otroCallback) {
+  setTimeout(function() {
+    console.log(`Adios, ${nombre}`);
+    otroCallback();
+  }, 1000);
+}
+
 function conversacion(nombre, veces, callback) {
   if (veces > 0) {
     hablar(function() {
@@ -20,13 +27,6 @@ function conversacion(nombre, veces, callback) {
   } else {
     adios(nombre, callback);
   }
-}
-
-function adios(nombre, otroCallback) {
-  setTimeout(function() {
-    console.log(`Adios, ${nombre}`);
-    otroCallback();
-  }, 1000);
 }
 
 //...
